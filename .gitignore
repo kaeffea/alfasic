@@ -1,0 +1,31 @@
+# Database and Sensitive Data
+*.mdb
+*.accdb
+*.sqlite
+*.sqlite3
+*.db
+*.zip
+*.key
+*.pem
+.env
+.env.local
+deploy.sh
+deploy/
+database_seed/
+alfagas/
+scratch/
+
+# Temporary / Extracted JSON Data
+*.json
+!composer.json
+
+# Python environment
+__pycache__/
+*.pyc
+.venv/
+
+# System / IDE files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
